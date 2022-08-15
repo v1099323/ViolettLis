@@ -1562,6 +1562,11 @@ textarea.input {
   opacity: 1;
   visibility: visible;
 }
+@media (max-width: 100em) {
+  .my-creativity__decor {
+    display: none;
+  }
+}
 
 .item-my-creativity {
   border-top-left-radius: 0.625rem;
@@ -1879,6 +1884,11 @@ textarea.input {
   transform: translateX(0);
   opacity: 1;
   visibility: visible;
+}
+@media (max-width: 100em) {
+  .music__decor {
+    display: none;
+  }
 }
 
 @media (min-width: 83.125em) {
